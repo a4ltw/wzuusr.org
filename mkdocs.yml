@@ -1,30 +1,144 @@
-site_name: 文藻小螺絲釘 WUTH USR 計畫
+site_name: 文藻小螺絲釘 WZU USR 計畫
+site_url: https://www.wzuusr.org
 site_author: WZU USR Team
-site_description: 以科技傳遞溫暖，用愛心永續關懷。
+site_description: 以科技傳遞溫暖，用愛心永續關懷 | Tech warms, love sustains, worldwide connection.
+repo_url: https://github.com/a4ltw/wzuusr.org
+repo_name: wzuusr.org
+
+# 文檔目錄
+docs_dir: docs/n
 
 theme:
   name: material
-  language: zh
-  palette:
-    primary: blue
-    accent: light-blue
-  features:
-    - navigation.tabs
-    - navigation.top
-    - search.suggest
-    - search.highlight
+  language: zh-TW
+  custom_dir: docs/n/overrides
 
-av:
-  - '首頁': 'index.md'
-  - '計畫團隊': 'team.md'
-  - '執行架構': 'framework.md'
-  - '數位教材':
-    - '總覽': 'materials/index.md'
-    - '動畫/繪本': 'materials/animation.md'
-    - '英文教材': 'materials/english.md'
-    - '華文教材': 'materials/chinese.md'
-  - '活動紀錄': 'activities.md'
-  - '得獎資訊': 'awards.md'
-  - '實踐場域': 'fields.md'
-  - '媒體報導': 'news.md'
-  - '報名': 'enroll/index.md'
+  # 網站圖標和 Logo
+  favicon: assets/images/favicon.png
+  logo: assets/images/logo.png
+
+  # 配色方案
+  palette:
+    # 淺色模式
+    - scheme: default
+      primary: blue
+      accent: light-blue
+      toggle:
+        icon: material/brightness-7
+        name: 切換至深色模式
+    # 深色模式
+    - scheme: slate
+      primary: blue
+      accent: light-blue
+      toggle:
+        icon: material/brightness-4
+        name: 切換至淺色模式
+
+  # 功能特性
+  features:
+    - navigation.instant        # 即時加載
+    - navigation.tracking       # 地址欄自動更新
+    - navigation.tabs           # 頂部標籤頁
+    - navigation.tabs.sticky    # 標籤頁固定
+    - navigation.sections       # 導航分組
+    - navigation.expand         # 默認展開導航
+    - navigation.top            # 返回頂部按鈕
+    - navigation.footer         # 頁腳導航
+    - search.suggest            # 搜索建議
+    - search.highlight          # 搜索高亮
+    - search.share              # 搜索分享
+    - toc.follow                # 目錄跟隨
+    - content.code.copy         # 代碼複製按鈕
+    - content.action.edit       # 編輯按鈕
+    - content.action.view       # 查看源碼按鈕
+
+# 插件
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+      separator: '[\s\-\.]+'
+  - tags
+  - social
+
+# Markdown 擴展
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      title: 本頁目錄
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# 額外配置
+extra:
+  # 社交媒體鏈接
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/文藻usr-國際醫療志工團-1782335585179795
+      name: Facebook 粉絲專頁
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@usrwhcusr4741?si=1QOziF982QiLtSTS
+      name: YouTube 頻道
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/whc_usr/
+      name: Instagram
+    - icon: fontawesome/brands/github
+      link: https://github.com/a4ltw/wzuusr.org
+      name: GitHub 倉庫
+
+  # 版權信息
+  copyright: Copyright &copy; 2024 文藻外語大學 USR 計畫
+
+  # Google Analytics (如果需要)
+  # analytics:
+  #   provider: google
+  #   property: G-XXXXXXXXXX
+
+# 導航結構
+nav:
+  - 首頁: index.md
+  - 計畫團隊: team.md
+  - 執行架構: framework.md
+  - 數位教材:
+    - 總覽: materials/index.md
+    - 動畫/繪本: materials/animation.md
+    - 英文教材: materials/english.md
+    - 華文教材: materials/chinese.md
+  - 活動紀錄: activities.md
+  - 得獎資訊: awards.md
+  - 實踐場域: fields.md
+  - 媒體報導: news.md
+  - 報名資訊: enroll/index.md
+
+# 額外的 CSS 和 JavaScript
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/extra.js
