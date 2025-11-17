@@ -40,14 +40,13 @@ theme:
     - navigation.tracking       # 地址欄自動更新
     - navigation.tabs           # 頂部標籤頁
     - navigation.tabs.sticky    # 標籤頁固定
-    - navigation.sections       # 導航分組
-    - navigation.expand         # 默認展開導航
     - navigation.top            # 返回頂部按鈕
     - navigation.footer         # 頁腳導航
     - search.suggest            # 搜索建議
     - search.highlight          # 搜索高亮
     - search.share              # 搜索分享
     - toc.follow                # 目錄跟隨
+    - toc.integrate             # 目錄整合到右側
     - content.code.copy         # 代碼複製按鈕
     - content.action.edit       # 編輯按鈕
     - content.action.view       # 查看源碼按鈕
