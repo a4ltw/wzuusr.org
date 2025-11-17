@@ -1,0 +1,94 @@
+/* 自定義樣式 - 文藻小螺絲釘 WZU USR 計畫 */
+
+:root {
+  --usr-primary-color: #1976d2;
+  --usr-accent-color: #03a9f4;
+}
+
+/* 首頁特殊樣式 */
+.home-hero {
+  text-align: center;
+  padding: 2rem 0;
+  background: linear-gradient(135deg, var(--usr-primary-color), var(--usr-accent-color));
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.home-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.home-hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* 社交媒體圖標優化 */
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.social-icons a {
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+}
+
+/* 卡片樣式 */
+.info-card {
+  background: var(--md-code-bg-color);
+  border-left: 4px solid var(--usr-primary-color);
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 4px;
+}
+
+/* 圖片優化 */
+.md-content img {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: auto;
+}
+
+/* 活動卡片 */
+.activity-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.activity-card {
+  background: var(--md-code-bg-color);
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.activity-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+  .home-hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .home-hero p {
+    font-size: 1rem;
+  }
+
+  .activity-grid {
+    grid-template-columns: 1fr;
+  }
+}
