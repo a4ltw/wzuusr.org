@@ -1,0 +1,7 @@
+# MkDocs 和相關插件
+mkdocs>=1.6.0
+mkdocs-material>=9.5.0
+mkdocs-material-extensions>=1.3.0
+
+# Markdown 擴展
+pymdown-extensions>=10.0

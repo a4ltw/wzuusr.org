@@ -59,8 +59,6 @@ plugins:
         - zh
         - en
       separator: '[\s\-\.]+'
-  - tags
-  - social
 
 # Markdown 擴展
 markdown_extensions:

@@ -1,0 +1,99 @@
+name: 部署 MkDocs 網站到 GitHub Pages /n/
+
+on:
+  # 當推送到主分支時觸發
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'docs/n/**'
+      - 'mkdocs.yml'
+      - '.github/workflows/deploy.yml'
+
+  # 允許手動觸發
+  workflow_dispatch:
+
+# 設置 GITHUB_TOKEN 權限以允許部署到 GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# 只允許一個並發部署
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 檢出代碼
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 獲取完整歷史記錄（某些插件需要）
+
+      - name: 設置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: 安裝依賴
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 構建 MkDocs 網站
+        run: |
+          # 構建網站到臨時目錄
+          mkdocs build --verbose --site-dir temp_site
+
+      - name: 準備部署目錄
+        run: |
+          # 檢出 gh-pages 分支（如果存在）
+          git fetch origin gh-pages --depth=1 || true
+          git checkout gh-pages || git checkout --orphan gh-pages
+
+          # 保留根目錄的文件（index.html, CNAME 等）
+          mkdir -p _preserve
+          if [ -f "index.html" ]; then cp index.html _preserve/; fi
+          if [ -f "CNAME" ]; then cp CNAME _preserve/; fi
+          if [ -f ".nojekyll" ]; then cp .nojekyll _preserve/; fi
+
+          # 清空當前目錄（除了 .git）
+          git rm -rf . 2>/dev/null || true
+
+          # 恢復保留的文件
+          if [ -f "_preserve/index.html" ]; then mv _preserve/index.html .; fi
+          if [ -f "_preserve/CNAME" ]; then mv _preserve/CNAME .; fi
+          if [ -f "_preserve/.nojekyll" ]; then mv _preserve/.nojekyll .; fi
+          rm -rf _preserve
+
+          # 確保有 .nojekyll 文件（禁用 Jekyll 處理）
+          touch .nojekyll
+
+          # 創建 /n/ 目錄並移動構建的網站
+          mkdir -p n
+          cp -r temp_site/* n/
+
+          # 清理臨時目錄
+          rm -rf temp_site
+
+      - name: 提交並部署
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+          git add .
+          git diff --staged --quiet || git commit -m "Deploy MkDocs site to /n/ - $(date +'%Y-%m-%d %H:%M:%S')"
+
+          git push origin gh-pages --force
+
+      - name: 部署完成通知
+        run: |
+          echo "✅ 網站已成功部署！"
+          echo "📍 根目錄: https://www.wzuusr.org/ (重定向到 Wix)"
+          echo "📍 新網站: https://www.wzuusr.org/n/"
