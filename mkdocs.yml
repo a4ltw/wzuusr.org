@@ -121,17 +121,30 @@ extra:
 # 導航結構
 nav:
   - 首頁: index.md
-  - 計畫團隊: team.md
+  - 計畫團隊:
+    - 團隊總覽: team/index.md
+    - 計畫緣起: team/origin.md
+    - 合作夥伴: team/partners.md
+    - 主持團隊: team/host-team.md
+    - 1132教師社群: team/faculty.md
   - 執行架構: framework.md
   - 數位教材:
     - 總覽: materials/index.md
     - 動畫/繪本: materials/animation.md
     - 英文教材: materials/english.md
     - 華文教材: materials/chinese.md
-  - 活動紀錄: activities.md
+  - 活動紀錄:
+    - 活動總覽: activities/index.md
+    - 2025蚵寮AI永續探索營: activities/2025-oyster-ai.md
+    - 2025攝影展《遊SEA時光》: activities/2025-photo-exhibition.md
+    - 2025義大醫院移工健檢口譯: activities/2025-hospital-interpretation.md
+    - 2025期末慶賀: activities/2025-celebration.md
   - 得獎資訊: awards.md
   - 實踐場域: fields.md
-  - 媒體報導: news.md
+  - 媒體報導:
+    - 報導總覽: news/index.md
+    - USR EXPO (英文): news/usr-expo-en.md
+    - USR EXPO (中文): news/usr-expo-zh.md
   - 報名資訊: enroll/index.md
 
 # 額外的 CSS 和 JavaScript
