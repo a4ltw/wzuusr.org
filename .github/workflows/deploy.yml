@@ -1,11 +1,12 @@
 name: 部署 MkDocs 網站到 GitHub Pages /n/
 
 on:
-  # 當推送到主分支時觸發
+  # 當推送到主分支或 Claude 工作分支時觸發
   push:
     branches:
       - main
       - master
+      - 'claude/**'
     paths:
       - 'docs/n/**'
       - 'mkdocs.yml'
