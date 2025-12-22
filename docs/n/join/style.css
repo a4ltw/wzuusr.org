@@ -1,0 +1,353 @@
+/* General Body Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.header-logo-inline {
+    height: 1.5em; /* Scales with font size */
+    margin: 0 0.5em;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 20px;
+    display: grid;
+    gap: 2rem;
+}
+
+/* Sections */
+section {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+/* Containers for content */
+#poster-container,
+#presentation-container,
+#video-container,
+#pdf-container {
+    margin-top: 1rem;
+    min-height: 300px; /* Placeholder height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #ddd;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1, .header-content h1 {
+        font-size: 1.5rem;
+    }
+    main {
+        margin: 1rem auto;
+        padding: 0 10px;
+    }
+    #qr-code-container img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* PDF Viewer */
+.pdf-viewer {
+    margin-top: 2rem;
+    border-top: 1px solid #eee;
+    padding-top: 1.5rem;
+}
+.pdf-viewer h3 {
+    margin-top: 0;
+}
+.pdf-viewer a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.pdf-viewer a:hover {
+    background-color: #004494;
+}
+
+/* Presentation Viewer */
+.presentation-viewer {
+    margin-top: 2rem;
+}
+.presentation-viewer h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.slide-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.prev-btn, .next-btn {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background-color: #004494;
+}
+
+.slide-counter {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.slides-wrapper {
+    text-align: center;
+    background-color: #fafafa;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.slides-wrapper img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.slides-wrapper img:hover {
+    transform: scale(1.02);
+}
+
+.download-section {
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #218838;
+}
+
+.download-btn i {
+    margin-right: 0.5rem;
+}
+
+/* Responsive design for presentation viewer */
+@media (max-width: 768px) {
+    .slide-controls {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .prev-btn, .next-btn {
+        width: 100%;
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .slide-counter {
+        order: -1;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Video Links */
+.video-links {
+    list-style-type: '🔗';
+    padding-left: 2rem;
+}
+.video-links li {
+    margin-bottom: 0.5rem;
+}
+
+/* Lightbox for image zoom */
+#lightbox {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#lightbox.visible {
+    display: flex; /* Make visible */
+}
+
+#lightbox-image {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 5px;
+}
+
+/* Adjusting iframe containers */
+#presentation-container, .video-container {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    min-height: auto; /* Reset min-height */
+}
+
+/* Responsive Video Container */
+.video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    margin-bottom: 2rem;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+#play-btn {
+    display: block;
+    margin: -1rem auto 2rem auto;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #c00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#play-btn:hover {
+    background-color: #a00;
+}
+
+/* Footer link */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* More Info Section */
+#moreinfo {
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+#moreinfo h2 {
+    margin-bottom: 1.5rem;
+}
+
+.social-links a {
+    font-size: 2.5rem;
+    margin: 0 15px;
+    color: #495057;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #007bff; /* A generic blue, can be customized */
+}
+
+
+
+
+

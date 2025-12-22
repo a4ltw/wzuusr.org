@@ -14,7 +14,7 @@ theme:
     - search.suggest
     - search.highlight
 
-av:
+nav:
   - '首頁': 'index.md'
   - '計畫團隊': 'team.md'
   - '執行架構': 'framework.md'

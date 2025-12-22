@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WZU USR 招生宣傳</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logo_usr.avif" type="image/avif">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>
+                <span>文藻螺絲釘</span>
+                <img src="assets/logo_usr.avif" alt="WZU USR Logo" class="header-logo-inline">
+                <span>鏈結世界心</span>
+            </h1>
+        </div>
+        <h2>114-2 🔥 火熱開課</h2>
+    </header>
+    <main>
+        <section id="link-section">
+            <div id="qr-code-container" style="text-align: center; padding: 20px;">
+                <img src="assets/qr_usr.png" alt="WZU USR 課程 QR Code">
+                <p><a href="https://join.wzuusr.org/" target="_blank">https://join.wzuusr.org/</a></p>
+            </div>
+        </section>
+        <section id="intro-section">
+            <p>尋找想挑戰自我、增強競爭力，想成為跨域人才的你（妳）！</p>
+            <p>小螺絲釘 USR 團隊誠摯邀請您成為【跨域新世代人才】：<br>AI + 服務領導 = 全面提升競爭力！</p>
+            <p>加入小螺絲釘團隊，與我們一同以熱情回應世界與台灣社會的真實需求！</p>
+            <p>團隊用心規劃：</p>
+            <ul>
+                <li>🌹 4 學分深碗課程（代碼： 1030 ）</li>
+                <li>🌹 1 學分微型課程（代碼： 1034 ）</li>
+            </ul>
+            <p>第二學期初選選課：2025.12.30-2026.01.02</p>
+            <h3>課程特色：</h3>
+            <ul>
+                <li>培養跨域能力。</li>
+                <li>結合 AI 與服務學習。</li>
+                <li>聚焦永續營隊、國際志工、文化與藝術導覽及醫院志工。</li>
+                <li>做中學，累積實務經驗。</li>
+                <li>邁向世界公民之路!</li>
+            </ul>
+            <p>小螺絲釘 114-2 課程 FB 連結： <a href="https://www.facebook.com/share/1M2CD1uPvh/?mibextid=wwXIfr" target="_blank">https://www.facebook.com/share/1M2CD1uPvh/</a></p>
+        </section>
+        <section id="poster-section">
+            <h2>宣傳海報</h2>
+            <div id="poster-container">
+                <img src="assets/poster.png" alt="WZU USR 宣傳海報" style="max-width: 100%; height: auto; cursor: pointer;" onclick="zoomImage(this)">
+            </div>
+        </section>
+        <section id="presentation-section">
+            <h2>課程介紹</h2>
+            <div class="presentation-viewer">
+                <h3>課程介紹簡報</h3>
+                <div class="slideshow-container">
+                    <div class="slides-wrapper">
+                        <img id="presentation-slide" src="assets/output-page-0.jpg" alt="課程簡報" onclick="zoomImage(this)">
+                    </div>
+                    <div class="slide-controls">
+                        <button class="prev-btn" onclick="changeSlide(-1)">&#10094; 上一頁</button>
+                        <span class="slide-counter">
+                            <span id="current-slide">1</span> / <span id="total-slides">18</span>
+                        </span>
+                        <button class="next-btn" onclick="changeSlide(1)">下一頁 &#10095;</button>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="assets/course_presentation_new.pdf" download class="download-btn">
+                        <i class="fas fa-download"></i> 下載完整簡報 PDF
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="testimony">
+            <h2>聽聽學姊怎麼說</h2>
+            <div class="video-container">
+                <!-- The API will replace this div with the iframe player -->
+                <div id="youtube-player"></div>
+            </div>
+            <button id="play-btn">影片播放</button>
+        </section>
+        <section id="video-section">
+            <h2>走過的路：更多影片與分享</h2>
+            <ul class="video-links">
+                <li><a href="https://reurl.cc/ekv3Ax" target="_blank">【2025蚵寮AI永續探索營】蚵生感言影片</a></li>
+                <li><a href="https://reurl.cc/Om7AoX" target="_blank">【3/19蚵寮啟航，5/21 完美收航】 線上英文陪伴</a></li>
+                <li><a href="https://reurl.cc/ax04oG" target="_blank">【歡樂收割日】小螺絲釘期末慶祝大會</a></li>
+                <li><a href="https://reurl.cc/rYd6ME" target="_blank">【大海裡的家】動態繪本(師生作品)</a></li>
+                <li><a href="https://reurl.cc/RknyAz" target="_blank">【寄居蟹的時尚災難】動畫影片(師生作品)</a></li>
+                <li><a href="https://reurl.cc/ax043Q" target="_blank">【我們一起走過113-2】</a></li>
+            </ul>
+        </section>
+        <section id="curriculum-section">
+            <h2>課程課綱</h2>
+            <div class="pdf-viewer">
+                <h3>深碗課程 (4學分)（1142課網製作中，完成後更新）</h3>
+                <iframe src="assets/deep_bowl_syllabus.pdf" width="100%" height="500px"></iframe>
+                <a href="assets/deep_bowl_syllabus.pdf" download>下載深碗課程大綱</a>
+            </div>
+            <div class="pdf-viewer">
+                <h3>微型課程 (1學分)（1142課網製作中，完成後更新）</h3>
+                <iframe src="assets/micro_course_syllabus.pdf" width="100%" height="500px"></iframe>
+                <a href="assets/micro_course_syllabus.pdf" download>下載微型課程大綱</a>
+            </div>
+        </section>
+        <section id="contact-section">
+            <h2>聯絡我們</h2>
+            <p style="text-align: center;">有任何問題，歡迎隨時詢問~</p>
+            <p style="text-align: center;">☎️ 電話：07-342-6031 #3210 千千助理</p>
+            <div id="contact-qr-container" style="text-align: center; padding: 20px;">
+                <img src="assets/Linebiz_USR.png" alt="課程客服 LINE QR Code" style="max-width: 300px; width: 100%; height: auto;">
+                <p><a href="https://lin.ee/iH1vrCT" target="_blank">https://lin.ee/iH1vrCT</a></p>
+            </div>
+        </section>
+        <section id="moreinfo">
+            <h2>關注我們</h2>
+            <div class="social-links">
+                <a href="https://fb.wzuusr.org" target="_blank" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://ig.wzuusr.org" target="_blank" title="Instagram"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://yt.wzuusr.org" target="_blank" title="YouTube"><i class="fab fa-youtube-square"></i></a>
+            </div>
+        </section>
+    </main>
+    <div id="lightbox" onclick="zoomImageOut()">
+        <img id="lightbox-image" src="">
+    </div>
+    <footer>
+        <p>
+            <a href="https://www.facebook.com/share/1M2CD1uPvh/?mibextid=wwXIfr" target="_blank">☀️ You are Wanted! 歡迎有熱情、有行動力的你（妳），一起加入小螺絲釘的行列！👍</a>
+        </p>
+        <p>&copy; 2025 WZU USR</p>
+    </footer>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+</body>
+</html>
