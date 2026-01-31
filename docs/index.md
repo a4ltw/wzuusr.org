@@ -108,8 +108,10 @@
 
 ## 追蹤我們
 
-<div style="text-align: center; font-size: 2rem; margin: 2rem 0;">
-[:fontawesome-brands-facebook:](https://fb.wzuusr.org){ title="Facebook" }
-[:fontawesome-brands-instagram:](https://ig.wzuusr.org){ title="Instagram" }
-[:fontawesome-brands-youtube:](https://yt.wzuusr.org){ title="YouTube" }
+<div class="social-links" style="text-align: center; margin: 2rem 0;" markdown>
+
+[**:fontawesome-brands-facebook: Facebook**](https://fb.wzuusr.org){ .md-button }
+[**:fontawesome-brands-instagram: Instagram**](https://ig.wzuusr.org){ .md-button }
+[**:fontawesome-brands-youtube: YouTube**](https://yt.wzuusr.org){ .md-button }
+
 </div>
