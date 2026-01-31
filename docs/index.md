@@ -1,106 +1,150 @@
 # 文藻小螺絲釘 USR 計畫
 
-<div style="text-align: center; margin: 2rem 0;">
-<h2>Wenzao USR: Tech with Heart</h2>
-<p><em>以科技傳遞溫暖，用愛心永續關懷</em></p>
-<p><em>Tech warms, love sustains, worldwide connection.</em></p>
+<div class="hero-minimal" markdown>
+
+## Wenzao USR: Tech with Heart
+
+<p class="subtitle">以科技傳遞溫暖，用愛心永續關懷</p>
+<p class="tagline">Tech warms, love sustains, worldwide connection.</p>
+
+<div class="cta-buttons" markdown>
+
+[:material-account-plus: 加入我們](join.md){ .md-button .md-button--primary }
+[:material-information: 了解計畫](about/origin.md){ .md-button }
+
+</div>
+
 </div>
 
 ---
 
-## 114-2 火熱招生中
+<div class="stats-section" markdown>
 
-!!! success "就差你了！"
+<div class="stats" markdown>
+
+<div class="stat-item" markdown>
+<div class="stat-number">7+</div>
+<div class="stat-label">跨系所合作</div>
+</div>
+
+<div class="stat-item" markdown>
+<div class="stat-number">3</div>
+<div class="stat-label">合作醫院</div>
+</div>
+
+<div class="stat-item" markdown>
+<div class="stat-number">11+</div>
+<div class="stat-label">參與教師</div>
+</div>
+
+<div class="stat-item" markdown>
+<div class="stat-number">100+</div>
+<div class="stat-label">培訓志工</div>
+</div>
+
+</div>
+
+</div>
+
+---
+
+## 計畫特色
+
+<div class="feature-cards" markdown>
+
+<div class="feature-card" markdown>
+<div class="icon">:material-hospital:</div>
+
+### 醫療口譯服務
+
+進駐高雄榮總、義大、小港醫院，協助外籍人士、新住民及移工克服就醫語言障礙。
+
+</div>
+
+<div class="feature-card" markdown>
+<div class="icon">:material-book-heart:</div>
+
+### 雙語繪本製作
+
+結合多語專業製作衛教繪本，將健康知識以溫暖的方式傳遞給更多人。
+
+</div>
+
+<div class="feature-card" markdown>
+<div class="icon">:material-earth:</div>
+
+### 國際服務連結
+
+與柬埔寨建立線上教學連結，讓愛心跨越國界，送溫暖到世界各地。
+
+</div>
+
+<div class="feature-card" markdown>
+<div class="icon">:material-account-group:</div>
+
+### 跨域人才培育
+
+培養學生跨文化溝通能力與社會責任意識，成為具有國際視野的服務人才。
+
+</div>
+
+</div>
+
+---
+
+## 最新動態
+
+!!! success "114-2 火熱招生中"
+
     成為小螺絲釘，一同鏈結世界心！
 
     [:material-arrow-right: 查看招生資訊](join.md){ .md-button .md-button--primary }
 
 ---
 
-## 關於計畫
-
-文藻外語大學以多國語、翻譯等專業特色成立多語翻譯志工隊，通過教育部「大學社會責任實踐計畫」，成立多國語國際醫療翻譯志工隊，進駐區域大型醫院，共創外籍人士、新住民及移工就醫無障礙 (SDG 3)，並服務外國弱勢孩童提昇教育素養 (SDG 4) 之非營利組織。
-
----
-
-## 計畫特色
-
-### 愛，在柬埔寨蔓延
-
-因為網路不穩定，以及網路平台的限制，台柬線上英文課程上起來非常具有挑戰性。文藻國際英語志工們紛紛使出渾身解術，用各種手勢、聲音、表情、簡單的線上互動活動，讓英文零起點的柬國小學生，可以很快進入狀況，然後不僅能以英文簡單的回答互動，表現也從陌生到熟悉，從靦腆到自信。
-
-四位國際英語志工學生從服務中，體會到教學的快樂與滿足，更從柬國小學生們的回應與笑容中，發現服務的意義，也提升了個人線上英文教學的技巧與能力。
-
----
-
-### 服務學習雙贏策略
-
-新冠肺炎疫情爆發以來，志工服務全面停止後，團隊首度來到義大醫院，討論重啟專業志工服務的可能性。義大醫院與文藻雙方針對過去口譯志工服務進行反思、討論與檢討，期待做為日後修正。
-
-討論最終凝聚共識，以病人身、心、靈、全人照護為目標，將由台籍志工與外籍醫學生組成跨國團隊進行專業服務學習。期待學子們能夠跨出自己的舒適圈，從服務當中提昇跨文化溝通之能力。
-
----
-
-### 來自醫院的肯定
-
-為了讓文藻同學們能夠有跨域學習的課程，涵蓋 7 個系所中心、11 位老師首度跨領域合作開設「國際專業服務領導」，主題涵括：
-
-- 跨文化與人際溝通
-- 國際服務學習
-- 環保與資源永續利用
-- 基本衛教與健康促進
-- 繪本製作
-- 專案企劃與行銷
-
-服務場域包括高雄榮民總醫院、義大醫院以及小港醫院，以及暑假期間的國際服務實踐。
-
----
-
-## 本計畫作品突破疫情封鎖 溫暖白色巨塔
-
-2020 USR EXPO 參賽微電影
-
-「溫暖白色巨塔的小螺絲釘－文藻國際志工共創就醫無障礙」USR 社會實踐計畫 (WHC-USR)
-
-[:material-arrow-right: 媒體報導](news.md){ .md-button }
-
----
-
 ## 快速連結
 
-<div class="grid cards" markdown>
+<div class="card-grid" markdown>
 
--   :material-account-group:{ .lg .middle } **計畫團隊**
+<div class="usr-card" markdown>
 
-    ---
+### :material-lightbulb: 計畫緣起
 
-    認識我們的核心團隊與教師社群
+了解我們的願景與 SDG 對接
 
-    [:octicons-arrow-right-24: 了解更多](team.md)
+[:octicons-arrow-right-24: 閱讀更多](about/origin.md)
 
--   :material-book-open:{ .lg .middle } **數位教材**
+</div>
 
-    ---
+<div class="usr-card" markdown>
 
-    雙語繪本動畫、英文與華文教材
+### :material-book-open-page-variant: 數位教材
 
-    [:octicons-arrow-right-24: 瀏覽教材](materials/index.md)
+雙語繪本動畫、英文與華文教材
 
--   :material-trophy:{ .lg .middle } **得獎資訊**
+[:octicons-arrow-right-24: 瀏覽教材](materials/index.md)
 
-    ---
+</div>
 
-    USR EXPO、遠見雜誌等獲獎紀錄
+<div class="usr-card" markdown>
 
-    [:octicons-arrow-right-24: 查看獎項](awards.md)
+### :material-trophy: 得獎資訊
 
--   :material-map-marker:{ .lg .middle } **實踐場域**
+USR EXPO、遠見雜誌等獲獎紀錄
 
-    ---
+[:octicons-arrow-right-24: 查看獎項](awards.md)
 
-    醫院、學校與國際服務據點
+</div>
 
-    [:octicons-arrow-right-24: 服務場域](fields.md)
+<div class="usr-card" markdown>
+
+### :material-handshake: 合作夥伴
+
+醫療、教育、國際合作夥伴
+
+[:octicons-arrow-right-24: 認識夥伴](partners.md)
+
+</div>
 
 </div>
 
@@ -108,4 +152,10 @@
 
 ## 追蹤我們
 
-[:fontawesome-brands-facebook: Facebook](https://fb.wzuusr.org){ .md-button } [:fontawesome-brands-instagram: Instagram](https://ig.wzuusr.org){ .md-button } [:fontawesome-brands-youtube: YouTube](https://yt.wzuusr.org){ .md-button }
+<div class="social-links" markdown>
+
+[:fontawesome-brands-facebook:](https://fb.wzuusr.org){ target="_blank" title="Facebook" }
+[:fontawesome-brands-instagram:](https://ig.wzuusr.org){ target="_blank" title="Instagram" }
+[:fontawesome-brands-youtube:](https://yt.wzuusr.org){ target="_blank" title="YouTube" }
+
+</div>
