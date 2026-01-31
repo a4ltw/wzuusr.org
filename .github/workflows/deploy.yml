@@ -39,5 +39,29 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
 
+      - name: Build site structure
+        run: |
+          # Build MkDocs to temporary directory
+          mkdocs build --site-dir _site_temp
+
+          # Create final site structure
+          mkdir -p _site/n
+
+          # Copy MkDocs site to /n/
+          cp -r _site_temp/* _site/n/
+
+          # Copy redirect pages
+          cp redirect/index.html _site/
+          cp -r docs/fb _site/
+          cp -r docs/ig _site/
+          cp -r docs/yt _site/
+
+          # Create CNAME
+          echo "wzuusr.org" > _site/CNAME
+
       - name: Deploy to GitHub Pages
-        run: mkdocs gh-deploy --force
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          force_orphan: true
