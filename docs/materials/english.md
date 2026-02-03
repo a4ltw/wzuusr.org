@@ -19,6 +19,8 @@ Sarawak, Malaysia
 | 2025/05/17 | 陳思羽 Sandra | Mountain 課程講義 | [:material-download: 下載](https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_780028e08b2b468cbe64479b771f3f5e.pdf) |
 | 2025/05/24 | 陳思羽 Sandra | Sky 課程講義 | [:material-download: 下載](https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_ca5738ae0730438ab7ccb7c5fdf5435d.pdf) |
 
+![沙勞越線上課程](../assets/images/materials/10e09e_317badfbd_c155d66b.png)
+
 ---
 
 ## 高雄市蚵寮國小教材專區
@@ -34,6 +36,8 @@ Ke Liao Elementary School, Kaohsiung
 | 2025/05/07 | 海洋英文 | Ocean Protection | [:material-download: 下載](https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_8a9dd42ccda84e578b03ad45c188d151.pptx) |
 | 2025/05/14 | 海洋英文 | Save the Sea Animals | [:material-download: 下載](https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_1396d64058d84560a4d6ddc6a0ded5d1.pdf) |
 | 2025/05/14 | 海洋英文 | A Small Killer | [:material-download: 下載](https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_dfbd915329a049bb816d8234a68df8f4.pdf) |
+
+![蚵寮國小課程](../assets/images/materials/10e09e_d8104f45a_97155f5b.png)
 
 ---
 
@@ -81,3 +85,5 @@ Ke Liao Junior High School, Kaohsiung
 | 2025/05/07 | 10 Plastic Bottles (2) | [:material-download: 下載](https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_75e2c66cb628468181f065ea7523bddf.pdf) |
 | 2025/05/07 | 10 Plastic Bottles (3) | [:material-download: 下載](https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_a45bc092811c48ac8968d9d0108b1ec6.pdf) |
 | 2025/05/07 | 10 Plastic Bottles (4) | [:material-download: 下載](https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_e26a709d072d418ea16e3437fe070d44.pdf) |
+
+![蚵寮國中課程](../assets/images/materials/10e09e_400de98dc_27766ac5.png)

@@ -6,6 +6,8 @@
 
 ---
 
+![媒體報導](assets/images/events/409f02_908251e4e_cc1cb915.jpg)
+
 ## 重要獲獎
 
 ### 2021 USR EXPO 最佳亮點故事獎
@@ -33,6 +35,8 @@
 全國 217 個計畫中入圍微電影競賽。
 
 ---
+
+![報導精選](assets/images/events/409f02_184abf9d7_baa455e0.jpg)
 
 ## 媒體報導精選
 

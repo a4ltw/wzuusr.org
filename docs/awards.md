@@ -13,6 +13,8 @@
 
 感謝大家的支持與協助，團隊老師隨同施副校長代表文藻大學受頒此榮譽！謝謝小螺絲釘所有師生及場域夥伴們的辛勞努力跟幫忙，這個團隊的榮譽是屬於您們的！
 
+![USR EXPO 頒獎](assets/images/awards/409f02_18a2b4035_bb6972e6.jpg)
+
 [:octicons-link-external-16: 詳細資料](https://tinyurl.com/yb6wj3c3){ .md-button }
 
 ---
@@ -45,6 +47,8 @@
     全國 217 個計畫中入圍微電影競賽。
 
 來自教育部 USR 推動中心的驚喜：「恭喜貴計畫的微電影入圍囉！」WHC-USR 能夠入圍，是天父送給團隊的禮物！祈禱文藻的使命跟 WHC-USR 團隊的 Vision 能夠讓更多人看見！大家一起貢獻專長，為世界的美好獻上心力！
+
+![USR EXPO 入圍](assets/images/awards/11062b_d5018efd8_daea728d.jpg)
 
 ---
 

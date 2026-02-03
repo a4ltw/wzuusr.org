@@ -15,6 +15,8 @@ tags:
 
 <!-- more -->
 
+![USR EXPO Talk](../../assets/images/awards/409f02_46ae26405_b7c28723.jpg)
+
 ## 活動紀實
 
 2022 USR EXPO 是教育部推動大學社會責任實踐計畫的重要展示平台，讓全國大專院校分享其 USR 計畫成果。

@@ -15,6 +15,8 @@ tags:
 
 <!-- more -->
 
+![標準病人訓練](../../assets/images/events/409f02_3571d9dcb_dd26e828.jpg)
+
 ## 什麼是標準病人？
 
 標準病人 (Standardized Patient, SP) 是經過訓練的人員，在醫學教育中扮演病患角色，協助醫療人員練習問診、檢查等臨床技能。
