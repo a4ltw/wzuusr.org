@@ -213,46 +213,7 @@
 }
 
 /* === 團隊成員卡片 === */
-.team-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: var(--spacing-md);
-  margin: var(--spacing-md) 0;
-}
-
-.team-member {
-  text-align: center;
-  padding: var(--spacing-md);
-  background: var(--usr-card-bg);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-sm);
-  transition: all var(--transition-base);
-}
-
-.team-member:hover {
-  box-shadow: var(--shadow-md);
-  transform: translateY(-4px);
-}
-
-.team-member img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: var(--spacing-sm);
-  border: 3px solid var(--usr-primary);
-}
-
-.team-member h4 {
-  margin: var(--spacing-xs) 0;
-  color: var(--usr-primary);
-}
-
-.team-member p {
-  color: #666;
-  font-size: 0.9rem;
-  margin: var(--spacing-xs) 0;
-}
+/* .team-member 已合併至 .team-card，請參閱下方 */
 
 /* === 時間軸 === */
 .timeline {
@@ -546,49 +507,13 @@ textarea:focus {
 }
 
 /* === 合作夥伴 Logo 網格 === */
+/* .partner-item 已合併至 .partner-card，請參閱下方 */
 .partner-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: var(--spacing-lg);
   margin: var(--spacing-lg) 0;
   padding: var(--spacing-md);
-}
-
-.partner-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: var(--spacing-md);
-  background: var(--usr-card-bg);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-sm);
-  transition: all var(--transition-base);
-  text-align: center;
-}
-
-.partner-item:hover {
-  box-shadow: var(--shadow-md);
-  transform: translateY(-4px);
-}
-
-.partner-item img {
-  max-width: 120px;
-  max-height: 80px;
-  object-fit: contain;
-  margin-bottom: var(--spacing-sm);
-}
-
-.partner-item h4 {
-  margin: var(--spacing-xs) 0;
-  font-size: 1rem;
-  color: var(--usr-primary);
-}
-
-.partner-item p {
-  font-size: 0.85rem;
-  color: #666;
-  margin: 0;
 }
 
 /* === 教師卡片 === */
@@ -842,7 +767,8 @@ textarea:focus {
   }
 }
 
-/* === 團隊成員網格 === */
+/* === 團隊成員網格與卡片 === */
+/* .team-member 和 .team-card 已合併，兩者可互換使用 */
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -850,7 +776,8 @@ textarea:focus {
   margin: var(--spacing-lg) 0;
 }
 
-.team-card {
+.team-card,
+.team-member {
   text-align: center;
   padding: var(--spacing-md);
   background: var(--usr-card-bg);
@@ -859,12 +786,14 @@ textarea:focus {
   transition: all var(--transition-base);
 }
 
-.team-card:hover {
+.team-card:hover,
+.team-member:hover {
   box-shadow: var(--shadow-md);
   transform: translateY(-4px);
 }
 
-.team-card img {
+.team-card img,
+.team-member img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -873,20 +802,30 @@ textarea:focus {
   border: 3px solid var(--usr-primary);
 }
 
-.team-card h3 {
+.team-card h3,
+.team-card h4,
+.team-member h3,
+.team-member h4 {
   margin: var(--spacing-xs) 0;
   font-size: 1rem;
   color: var(--usr-primary);
 }
 
-.team-card p {
+.team-card p,
+.team-member p {
   font-size: 0.9rem;
   color: #666;
   margin: 0;
 }
 
 /* === 合作夥伴卡片 === */
-.partner-card {
+/* .partner-item 和 .partner-card 已合併，兩者可互換使用 */
+.partner-card,
+.partner-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: var(--spacing-md);
   background: var(--usr-card-bg);
   border-radius: var(--radius-md);
@@ -895,23 +834,30 @@ textarea:focus {
   text-align: center;
 }
 
-.partner-card:hover {
+.partner-card:hover,
+.partner-item:hover {
   box-shadow: var(--shadow-md);
   transform: translateY(-4px);
 }
 
-.partner-card h3 {
+.partner-card h3,
+.partner-card h4,
+.partner-item h3,
+.partner-item h4 {
   margin: var(--spacing-sm) 0;
   font-size: 1.1rem;
   color: var(--usr-primary);
 }
 
-.partner-card p {
+.partner-card p,
+.partner-item p {
   font-size: 0.9rem;
   color: #666;
   line-height: 1.6;
 }
 
+.partner-card img,
+.partner-item img,
 .partner-logo {
   max-width: 150px;
   max-height: 100px;
@@ -920,34 +866,14 @@ textarea:focus {
   display: block;
 }
 
-/* === 圖片畫廊 === */
-.image-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: var(--spacing-sm);
-  margin: var(--spacing-md) 0;
-}
-
-.image-gallery img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-radius: var(--radius-md);
-  cursor: pointer;
-  transition: all var(--transition-base);
-}
-
-.image-gallery img:hover {
-  transform: scale(1.05);
-  box-shadow: var(--shadow-md);
-}
-
+/* === 響應式調整（補充） === */
 @media (max-width: 768px) {
   .team-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .team-card img {
+  .team-card img,
+  .team-member img {
     width: 80px;
     height: 80px;
   }
