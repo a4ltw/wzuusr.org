@@ -1,7 +1,7 @@
 # 114-2 義大醫療志工隊介紹
 
-[:material-presentation: Google 簡報](https://docs.google.com/presentation/d/18C1Un3BH-xSZU1AZHFMlAt95OvD-s4GH/){ .md-button .md-button--primary }
-[:material-table: Google 試算表](https://docs.google.com/spreadsheets/d/1vGzfZxYLGL2XSGGkreOVMQPZiKUO2EC8Zt3GmE2-CQ0/){ .md-button }
+[:material-presentation: 簡報原始檔](https://docs.google.com/presentation/d/18C1Un3BH-xSZU1AZHFMlAt95OvD-s4GH/edit?usp=sharing&ouid=115903601626186545097&rtpof=true&sd=true){ .md-button .md-button--primary }
+[:material-table: 班表試填](https://docs.google.com/spreadsheets/d/1vGzfZxYLGL2XSGGkreOVMQPZiKUO2EC8Zt3GmE2-CQ0/){ .md-button }
 
 ---
 
@@ -53,8 +53,8 @@
 
 ---
 
-[:material-presentation: Google 簡報](https://docs.google.com/presentation/d/18C1Un3BH-xSZU1AZHFMlAt95OvD-s4GH/){ .md-button .md-button--primary }
-[:material-table: Google 試算表](https://docs.google.com/spreadsheets/d/1vGzfZxYLGL2XSGGkreOVMQPZiKUO2EC8Zt3GmE2-CQ0/){ .md-button }
+[:material-presentation: 簡報原始檔](https://docs.google.com/presentation/d/18C1Un3BH-xSZU1AZHFMlAt95OvD-s4GH/edit?usp=sharing&ouid=115903601626186545097&rtpof=true&sd=true){ .md-button .md-button--primary }
+[:material-table: 班表試填](https://docs.google.com/spreadsheets/d/1vGzfZxYLGL2XSGGkreOVMQPZiKUO2EC8Zt3GmE2-CQ0/){ .md-button }
 
 ---
 
