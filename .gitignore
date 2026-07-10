@@ -3,3 +3,13 @@ Thumbs.db
 *.log
 .vscode/
 .idea/
+
+# local-only
+venv/
+site/
+temp/
+temp_todo/
+wix_backup/
+usrdocument2018.wixsite.com/
+*.backup
+*.pptx.pdf
