@@ -42,9 +42,6 @@ public/
 └── images/            # 依分類放置的靜態圖片
 ```
 
-詳細架構、頁面清單、開發慣例見 [`CLAUDE.md`](./CLAUDE.md)；
-開發進度與待辦見 [`PLAN.md`](./PLAN.md)。
-
 ## 部署
 
 推送到 `astro` branch 會透過 GitHub Actions 自動建置並部署到 GitHub Pages。
