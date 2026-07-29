@@ -6,9 +6,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 文藻外語大學 USR 計畫（小螺絲釘 WUTH）靜態網站，從 Wix 搬遷至 Astro + Tailwind CSS v4。
 
-- **開發版**：https://dev.wzuusr.org（branch: `astro`）
-- **正式版**：https://wzuusr.org（目前轉址至 Wix，開發完成後取代）
+- **正式版**：https://wzuusr.org（branch: `astro`，push 即自動部署）
 - **語言**：繁體中文（zh-TW）
+
+> 本 repo 為唯一開發與部署來源。原本並行的 dev.wzuusr.org（`wzuusr-site-dev` repo）
+> 已於正式切換後封存，開發與正式站合一，不再需要跨 repo 同步。
 
 ## Build Commands
 

@@ -1,8 +1,9 @@
-# wzuusr.org 正式切換 Runbook
+# wzuusr.org 正式切換 Runbook（已於 2026-07-27 執行完成）
 
+> 存檔用途：記錄當時的切換步驟，供日後回顧。以下清單已全部完成，
+> `wzuusr-site-dev` repo 已封存，本 repo（astro branch）為唯一開發與部署來源。
+>
 > 目的：讓 wzuusr.org 從「轉址舊 Wix」正式改為 Astro 新站，三 repo 收成一個。
-> 執行時機：A4 說「切換」的那天。預估 1–2 小時。
-> 前身整備已於 2026-07-10 完成（見 `_task_state.md`）。
 
 ## 0. 前置確認（切換前必須全綠）
 
@@ -42,7 +43,9 @@ GitHub Pages 設定：Settings → Pages → custom domain 填 `wzuusr.org`，�
 
 ## 5. dev.wzuusr.org 的去留
 
-建議保留 `wzuusr-site-dev` repo 當開發／預覽站（雙 repo：dev 推 dev.wzuusr.org，確認後 push 到 prod remote 部署正式站）。若不想維護兩個，就把 wzuusr-site-dev archive，之後直接在 wzuusr.org repo 開發。
+**結果**：2026-07-29 決定收成一個 repo。`wzuusr-site-dev` 已封存，
+dev.wzuusr.org 的 GitHub Pages 自訂網域已移除，之後直接在
+`/home/asl/projects/wzuusr.org`（astro branch）開發推送即部署正式站。
 
 ## 6. 切換後驗證清單
 

@@ -3,7 +3,6 @@
 文藻外語大學「大學社會責任實踐計畫」（Wenzao USR: Tech with Heart）官方網站。
 
 - **正式版**：https://wzuusr.org
-- **開發版**：https://dev.wzuusr.org
 
 ## 專案簡介
 
@@ -44,8 +43,7 @@ public/
 ```
 
 詳細架構、頁面清單、開發慣例見 [`CLAUDE.md`](./CLAUDE.md)；
-開發進度與待辦見 [`PLAN.md`](./PLAN.md)；
-正式網域切換步驟見 [`SWITCHOVER.md`](./SWITCHOVER.md)。
+開發進度與待辦見 [`PLAN.md`](./PLAN.md)。
 
 ## 部署
 

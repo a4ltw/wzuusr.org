@@ -1,10 +1,8 @@
 # 文藻小螺絲釘 WUTH — Astro 新站開發計畫
 
-> 從舊 Wix 網站全面搬遷至 Astro + Tailwind CSS 靜態網站。
-> 開發完成後取代 wzuusr.org 的 Wix 轉址。
+> 從舊 Wix 網站全面搬遷至 Astro + Tailwind CSS 靜態網站，已於 2026-07-27 正式取代 wzuusr.org 的 Wix 轉址。
 
-- **開發版**：https://dev.wzuusr.org（本 repo，branch: astro）
-- **正式版**：https://wzuusr.org（目前轉址至 Wix）
+- **正式版**：https://wzuusr.org（本 repo，branch: astro，push 即自動部署）
 
 ---
 
@@ -49,7 +47,7 @@
 
 ### 🟢 後期
 
-- [ ] **正式切換**：開發版確認 OK → 更新 `a4ltw/wzuusr.org` repo 取代 Wix 轉址
+- [x] **正式切換**：2026-07-27 完成，wzuusr.org 已取代 Wix 轉址（見 `SWITCHOVER_已完成_2026-07.md`）
 - [ ] **CMS 評估**：是否需要 Decap CMS 讓非工程師能新增文章
 
 ---
